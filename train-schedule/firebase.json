@@ -1,0 +1,19 @@
+{
+  "database": {
+    "rules": "clear"
+  },
+  "hosting": {
+    "public": "train-schedule",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}

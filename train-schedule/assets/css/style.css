@@ -1,0 +1,27 @@
+body {
+    margin: 0 auto;
+    width: 80%;
+}
+
+.jumbotron {
+    height: 300px;
+    text-align: center;
+    background-image: url("https://www.riverterraceinn.com/~/media/a/hero-sub/wine-train-mondavi%20jpg.ashx");
+    background-position: 0% 70%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Playfair Display', serif;
+}
+
+.card {
+    margin-bottom: 30px;
+}
+
+.card-header {
+    background-color: rgb(240, 242, 243);
+}
+
+#submit {
+    background-color: rgb(185, 186, 187);
+    border-color: rgb(240, 242, 243);
+}
